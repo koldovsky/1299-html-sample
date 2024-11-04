@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Event Website</title>
+    <title>Contacts Page | Event Website</title>
     <link
       rel="shortcut icon"
       href="img/global/event-favicon.png"
@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Member 1 -->
-    <header class="header">
+    <header>
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -27,9 +27,21 @@
       <div
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.header-hero.partial.html"
+        data-hx-get="contacts.header-hero.partial.html"
       ></div>
     </header>
     <main>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="contacts.map.partial.html"
+      ></div>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="contacts.contacts.partial.html"
+      ></section>
+    </main>
+    <footer>??</footer>
   </body>
 </html>
